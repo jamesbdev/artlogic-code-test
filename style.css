@@ -1,0 +1,410 @@
+body {
+    font-family: 'Overpass', sans-serif;
+    margin: 0;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    text-transform: uppercase;
+    gap: 1.6rem;
+    font-family: 'Overpass Mono', monospace;
+    margin: 0;
+    padding: 70px 16px;
+    font-size: 13px;
+}
+
+.mobile-nav {
+    flex-direction: column;
+}
+
+.hide {
+    display: none;
+    transition: 1.5s ease;
+}
+
+.modal-close {
+    position: absolute;
+    top: 20px;
+    right: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+}
+
+.mobile-nav-modal {
+    z-index: 10;
+    background: #0A1837;
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
+    padding: 0;
+}
+
+header ul li {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav .logo-text {
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 102%;
+    padding-left: 16px;
+}
+
+header {
+    background: #0A1837;
+    color: white;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 16px;
+    align-items: center;
+}
+
+.header-label {
+    color: #FFF;
+    font-family: Overpass Mono;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 16.9px */
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.image-text-container {
+    display: flex;
+    flex-direction: column;
+    background: #F6F7F6;
+}
+
+.mobile-hide {
+    display: none;
+}
+
+.image-text-container h3 {
+    color: #111;
+    font-family: Overpass;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 46.25px */
+    margin-bottom: 0;
+}
+
+.flex-container .child-container {
+    scroll-snap-type: x mandatory;
+}
+
+
+
+.image-text-container p {
+    color: #666;
+    font-family: Overpass Mono;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 180%; /* 27px */
+    margin: 50px 0;
+}
+
+.image-text-container h4 {
+  color: #111;
+  font-family: Overpass;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 30px */
+  margin-top: 10px;
+}
+
+.image-text-container a {
+  text-decoration: none;
+  color: #111;
+  font-family: Overpass Mono;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500; 
+  line-height: normal;
+  letter-spacing: 0.52px;
+  text-transform: uppercase;
+}
+
+.background-white {
+    background: white;
+}
+
+.hero-image {
+    display: none;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.other-works .flex-container {
+    display: flex;
+    gap: 60px;
+    justify-content: flex-start;
+    overflow: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+}
+
+.other-works {
+    margin: 0 auto;
+    width: 100%;
+    padding: 74px 16px;
+    background-color: #F6F7F6;
+    color: #111;
+}
+
+.other-works h4 {
+    font-size: 13px;
+    font-family: 'Overpass Mono', monospace;
+    font-weight: 500;
+    letter-spacing: 0.52px;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.other-works h3 {
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 125%;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    width: 70%;
+    margin-right: 0;
+}
+
+.other-works img {
+    margin: 0;
+}
+
+.page-width {
+    /* padding: 37px 16px; */
+}
+
+.section-title {
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Overpass Mono', monospace;
+    letter-spacing: 0.52px;
+    text-transform: uppercase;
+    margin: 0 0 48px;
+}
+
+header h1 {
+    margin-bottom: 0;
+  color: #FFF;
+font-family: Overpass;
+font-size: 44px;
+font-style: normal;
+font-weight: 400;
+line-height: 91%; /* 92.82px */
+}
+
+header h3 {
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 25px;
+}
+
+footer {
+    background: #111;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 114px;
+}
+
+footer h5 {
+  font-family: 'Overpass Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.52px;
+  line-height: 130%;
+  margin-bottom: 28px;
+}
+
+footer .logo-text {
+    font-size: 29px;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding: 0;
+
+}
+
+footer .footer-contact {
+    display: flex;
+    gap: 90px;
+    flex-direction: column;
+}
+
+.footer-links {
+  display: flex;
+  gap: 24px;
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  color: #D4D4D8;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: 'Overpass Mono', monospace;
+  font-weight: 500;
+}   
+
+.footer-links a {
+    text-decoration: none;
+    color: #D4D4D8;
+}
+
+footer .contact-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-contact .contact-info, .footer-contact .gallery-address {
+    font-style: normal;
+    font-family: 'Overpass', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 151%;
+}
+
+.footer-contact p {
+    margin: 0;
+}
+
+.show-menu {
+    position: absolute;
+    right: 16px;
+
+}
+
+
+
+
+/* tablets */
+
+@media (min-width: 768px) { 
+
+}
+
+/* small laptops */
+@media (min-width: 990px) { 
+
+   nav .logo-text {
+        padding: 0;
+    }
+
+    .header-container {
+        margin-left: 140px;
+    }
+
+    .other-works {
+        padding: 74px 114px;
+    }
+
+    .other-works .flex-container {
+      overflow: hidden;
+    }
+
+    .show-menu {
+        display: none;
+    }
+
+    .mobile-nav-modal {
+        display: none;
+    }
+
+
+    .mobile-hide {
+        display: flex;
+    }
+
+    .desktop-hide {
+        display: none;
+    }
+
+    .hero-image {
+        display: block;
+    }
+    
+    header nav {
+        justify-content: space-between;
+  
+    
+    }
+
+    header nav {
+        padding-left: 140px;
+        padding-right: 140px;
+    }
+
+    header h1 {
+        font-size: 102px;
+        line-height: 91%;
+        margin-top: 85px;
+    }
+
+    .header-container .text-block {
+        width: 40%;
+    }
+
+    .header-container img {
+        width: 60%;
+    }
+
+    .image-text-container {
+        align-items: center;
+        flex-direction: row;
+        gap: 114px;
+        padding: 114px;
+    }
+
+    footer {
+        padding: 114px;
+    }
+
+    .image-text-container .text-container h3, .image-text-container .text-container p  {
+        width: 75%;
+    }
+
+}
+
+/* large screens */
+
+@media (min-width: 1200px) { 
+
+}
+
+
+
+/* very large screens */
+
+@media (min-width: 1400px) { 
+
+}
+
+
