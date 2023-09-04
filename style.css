@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+.mobile-nav {
+  align-items: center;
+}
+
 header ul {
     list-style-type: none;
     display: flex;
@@ -242,6 +246,7 @@ header h3 {
     font-size: 25px;
     font-weight: normal;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 footer {
