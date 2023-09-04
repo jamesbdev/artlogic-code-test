@@ -96,6 +96,10 @@ header nav {
     background: #F6F7F6;
 }
 
+.image-text-container:not(:first-child) .text-container {
+  margin-bottom: 30px;
+}
+
 .mobile-hide {
     display: none;
 }
@@ -451,7 +455,7 @@ footer .footer-contact {
     .page-width {
         padding: 50px 114px;
     }
-    
+
     .header-container {
         margin-left: 140px;
     }
