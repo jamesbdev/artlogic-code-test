@@ -319,6 +319,11 @@ footer .contact-info a {
 /* small laptops */
 @media (min-width: 990px) { 
 
+  header nav {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
     .page-width {
         padding: 37px 30px;
     }
@@ -370,13 +375,10 @@ footer .footer-contact {
     
     }
 
-    header nav {
-        padding-left: 140px;
-        padding-right: 140px;
-    }
+ 
 
     header h1 {
-        font-size: 102px;
+        font-size: 75px;
         line-height: 91%;
         margin-top: 85px;
     }
@@ -409,12 +411,21 @@ footer .footer-contact {
         padding: 35px 50px;
     }
 
+    header nav {
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+
     .image-text-container {
         align-items: center;
         flex-direction: row;
         gap: 114px;
         /* padding: 114px; */
     }
+
+    header h1 {
+      font-size: 102px;
+  }
 
 }
 
@@ -423,6 +434,11 @@ footer .footer-contact {
 /* very large screens */
 
 @media (min-width: 1400px) { 
+
+  header nav {
+    padding-left: 140px;
+    padding-right: 140px;
+}
 
     .page-width {
         padding: 50px 114px;
