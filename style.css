@@ -241,7 +241,7 @@ footer {
     color: white;
     display: flex;
     flex-direction: column;
-    gap: 114px;
+    gap: 40px;
 }
 
 footer h5 {
@@ -294,7 +294,7 @@ footer .contact-info a {
 .footer-contact .contact-info, .footer-contact .gallery-address {
     font-style: normal;
     font-family: 'Overpass', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 151%;
 }
@@ -318,6 +318,10 @@ footer .contact-info a {
 
 /* small laptops */
 @media (min-width: 990px) { 
+
+  .footer-contact .contact-info, .footer-contact .gallery-address {
+    font-size: 24px;
+}
 
   header nav {
     padding-left: 30px;
@@ -407,6 +411,10 @@ footer .footer-contact {
 
 @media (min-width: 1200px) { 
 
+  footer {
+    gap: 114px;
+}
+
     .page-width {
         padding: 35px 50px;
     }
@@ -443,15 +451,19 @@ footer .footer-contact {
     .page-width {
         padding: 50px 114px;
     }
-
-    .other-works .flex-container {
-      overflow: hidden;
-    }
-
+    
     .header-container {
         margin-left: 140px;
     }
 
 }
+
+@media (min-width: 1600px) { 
+  .other-works .flex-container {
+    overflow: hidden;
+  }
+}
+
+
 
 
