@@ -112,7 +112,15 @@ header nav {
 
 .flex-container .child-container {
     scroll-snap-type: x mandatory;
+    display: flex;
+    flex-direction: column;
 }
+
+.flex-container .child-container a {
+    color: #111;
+    text-decoration: none;
+}
+
 
 
 
@@ -405,7 +413,7 @@ footer .footer-contact {
         align-items: center;
         flex-direction: row;
         gap: 114px;
-        padding: 114px;
+        /* padding: 114px; */
     }
 
 }
@@ -415,6 +423,10 @@ footer .footer-contact {
 /* very large screens */
 
 @media (min-width: 1400px) { 
+
+    .page-width {
+        padding: 50px 114px;
+    }
 
     .other-works .flex-container {
       overflow: hidden;
