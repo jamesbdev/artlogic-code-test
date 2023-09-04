@@ -114,6 +114,10 @@ header nav {
     margin-bottom: 0;
 }
 
+.image-text-container:not(:first-of-type) h3 {
+  margin-top: 0;
+}
+
 .flex-container .child-container {
     scroll-snap-type: x mandatory;
     display: flex;
