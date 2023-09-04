@@ -353,13 +353,6 @@ footer .footer-contact {
         padding: 0;
     }
 
-  
-
-    .other-works {
-        padding: 74px 114px;
-    }
-
-
     .show-menu {
         display: none;
     }
@@ -435,8 +428,15 @@ footer .footer-contact {
     .image-text-container {
         align-items: center;
         flex-direction: row;
-        gap: 114px;
-        /* padding: 114px; */
+        gap: 80px;
+    }
+
+    .image-text-container:not(:first-child) .text-container {
+      margin-bottom: 0;
+    }
+    
+    .text-container h3 {
+      margin-top: 0;
     }
 
     header h1 {
@@ -451,13 +451,17 @@ footer .footer-contact {
 
 @media (min-width: 1400px) { 
 
+  .image-text-container {
+    gap: 114px;
+  }
+
   header nav {
     padding-left: 140px;
     padding-right: 140px;
 }
 
     .page-width {
-        padding: 50px 114px;
+        padding: 75px 114px;
     }
 
     .header-container {
