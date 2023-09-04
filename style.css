@@ -283,7 +283,7 @@ footer .footer-contact {
 
 .footer-links {
   display: flex;
-  gap: 24px;
+  gap: 20px;
   list-style-type: none;
   padding-left: 0;
   margin-bottom: 0;
@@ -416,6 +416,10 @@ footer .footer-contact {
 /* large screens */
 
 @media (min-width: 1200px) { 
+
+  .footer-links {
+    gap: 50px;
+  }
 
   footer {
     gap: 114px;
